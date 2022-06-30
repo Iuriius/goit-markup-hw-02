@@ -5,136 +5,140 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebStudio Портфолио</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
-    <title>WebStudio Портфолио</title>
-
 </head>
 
-<body class="body">
-    <header>
-        <a class="logo" href="./index.html"><span class="logopart">Web</span>Studio</a>
+<body>
+    <header class="header">
+        <a class="logo" href="./index.html">Web<span class="logopart-black">Studio</span></a>
         <nav>
-            <ul class="site-nav">
+            <ul>
                 <li>
-                    <a class="link" href="./index.html">Студия</a>
+                    <a class="nav" href="./index.html">Студия</a>
                 </li>
                 <li>
-                    <a class="link-active" href="./portfolio.html">Портфолио</a>
+                    <a class="active-page" href="./portfolio.html">Портфолио</a>
                 </li>
                 <li>
-                    <a class="link" href="#">Контакты</a>
+                    <a class="nav" href="./contacts.html">Контакты</a>
                 </li>
             </ul>
         </nav>
-        <ul class="contacts">
+        <ul>
             <li>
-                <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                <a class="contacts" href="mailto:info@devstudio.com">info@devstudio.com</a>
             </li>
             <li>
-                <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
+                <a class="contacts" href="tel:+38096111111">+38 096 111 11 11</a>
             </li>
         </ul>
     </header>
 
     <main>
-        <section>
-            <h2>
-                <!-- some logic text -->
-            </h2>
-            <ul class="list">
-                <li>
-                    <button class="button" type="button">Все</button>
-                </li>
-                <li>
-                    <button class="button" type="button">Веб-сайты</button>
-                </li>
-                <li>
-                    <button class="button" type="button">Приложения</button>
-                </li>
-                <li>
-                    <button class="button" type="button">Дизайн</button>
-                </li>
-                <li>
-                    <button class="button" type="button">Маркетинг</button>
-                </li>
-            </ul>
+        <section class="visually-hidden">
+            <h2>Портфолио навигация</h2>
+        </section>
+        <ul class="list">
+            <li>
+                <button class="buttons-portfolio" type="button">Все</button>
+            </li>
+            <li>
+                <button class="buttons-portfolio" type="button">Веб-сайты</button>
+            </li>
+            <li>
+                <button class="buttons-portfolio" type="button">Приложения</button>
+            </li>
+            <li>
+                <button class="buttons-portfolio" type="button">Дизайн</button>
+            </li>
+            <li>
+                <button class="buttons-portfolio" type="button">Маркетинг</button>
+            </li>
+        </ul>
         </section>
 
+
         <section>
-            <ul class="list">
-                <li>
+            <h1 class="visually-hidden">Примеры работ</h1>
+            <ul>
+                <li class="example-card">
                     <img src="./images/technocrack.jpg" alt="лаптоп с открытым вебсайтом" width="370" height="294">
-                    <h3 class="card-name">Технокряк</h3>
-                    <p class="cards-descr">Веб-сайт</p>
+                    <h3 class="example-card-name">Технокряк</h3>
+                    <p class="example-card-descr">Веб-сайт</p>
                 </li>
-                <li>
-                    <img src="./images/basketball.jpg" alt="баскетболисты команд New Orlean и Golden Star в прыжке"
-                        width="370" height="294">
-                    <h3 class="card-name">Постер New Orlean vs Golden Star</h3>
-                    <p class="cards-descr">Дизайн</p>
+                <li class="example-card">
+                    <img src="./images/basketball.jpg" alt="баскетболисты команд New Orlean и Golden Star в прыжке">
+                    <h3 class="example-card-name">Постер New Orlean vs Golden Star</h3>
+                    <p class="example-card-descr">Дизайн</p>
                 </li>
-                <li>
+                <li class="example-card">
                     <img src="./images/seafood.jpg" alt="лого ресторана в виде рыбы" width="370" height="294">
-                    <h3 class="card-name">Ресторан Seafood</h3>
-                    <p class="cards-descr">Приложение</p>
+                    <h3 class="example-card-name">Ресторан Seafood</h3>
+                    <p class="example-card-descr">Приложение</p>
                 </li>
-                <li>
+                <li class="example-card">
                     <img src="./images/prime.jpg" alt="полноразмерные черные наушники-чаши" width="370" height="294">
-                    <h3 class="card-name">Проект Prime</h3>
-                    <p class="cards-descr">Маркетинг</p>
+                    <h3 class="example-card-name">Проект Prime</h3>
+                    <p class="example-card-descr">Маркетинг</p>
                 </li>
-                <li>
+                <li class="example-card">
                     <img src="./images/boxes.jpg" alt="две упаковочные коробки" width="370" height="294">
-                    <h3 class="card-name">Проект Boxes</h3>
-                    <p class="cards-descr">Приложение</p>
+                    <h3 class="example-card-name">Проект Boxes</h3>
+                    <p class="example-card-descr">Приложение</p>
                 </li>
-                <li>
+                <li class="example-card">
                     <img src="./images/inspirationsite.jpg" alt="настольный компьютер моноблок с открытым сайтом"
                         width="370" height="294">
-                    <h3 class="card-name">Inspiration has no Borders</h3>
-                    <p class="cards-descr">Веб-сайт</p>
+                    <h3 class="example-card-name">Inspiration has no Borders</h3>
+                    <p class="example-card-descr">Веб-сайт</p>
                 </li>
-                <li>
+                <li class="example-card">
                     <img src="./images/limited-edition.jpg" alt="открытый журнал на столе" width="370" height="294">
-                    <h3 class="card-name">Издание Limited Edition</h3>
-                    <p class="cards-descr">Дизайн</p>
+                    <h3 class="example-card-name">Издание Limited Edition</h3>
+                    <p class="example-card-descr">Дизайн</p>
                 </li>
-                <li>
+                <li class="example-card">
                     <img src="./images/lab-project.jpg" alt="таг-хенгер с надписью LAB" width="370" height="294">
-                    <h3>Проект LAB</h3>
-                    <p class="cards-descr">Маркетинг</p>
+                    <h3 class="example-card-name">Проект LAB</h3>
+                    <p class="example-card-descr">Маркетинг</p>
                 </li>
-                <li>
+                <li class="example-card">
                     <img src="./images/growing-business.jpg" alt="руки при работе на лаптопе" width="370" height="294">
-                    <h3 class="card-name">Growing Business</h3>
-                    <p class="cards-descr">Приложение</p>
+                    <h3 class="example-card-name">Growing Business</h3>
+                    <p class="example-card-descr">Приложение</p>
                 </li>
             </ul>
         </section>
-    </main>
 
-    <footer class="footer">
-        <a class="logowhite" href="./index.html"><span class="logopart">Web</span>Studio</a>
-        <address>
-            <ul class="address">
-                <li>
-                    <a class="address-content" href="http://goo.gl/maps/xrkZVFb56eWxWtfe7" target="_blank"
-                        rel="noopener noreferrer">г. Киев,
-                        пр-т Леси Украинки, 26</a>
-                </li>
-                <li>
-                    <a class="address-content-secondary" href="mailto:info@devstudio.com">info@devstudio.com</a>
-                </li>
-                <li>
-                    <a class="address-content-secondary" href="tel:+380961111111">+38 096 111 11 11</a>
-                </li>
-            </ul>
-        </address>
+    </main>
+    <footer>
+        <ul>
+            <li>
+                <a class="logo" href="./index.html">Web<span class="logopart-white">Studio</span></a>
+                <address><a class="address" href="https://goo.gl/maps/pX6Tc8cu8p1majoq9" target="_blank"
+                        rel="noopener noreferrer">г.
+                        Киев, пр-т
+                        Леси Украинки,
+                        26</>
+                </address>
+            </li>
+            <li>
+                <a class="footer-contacts" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+            <li>
+                <a class="footer-contacts" href="tel:+380961111111">+38 096 111 11 11</a>
+            </li>
+        </ul>
+
+
+
+
     </footer>
 </body>
 
