@@ -7,14 +7,17 @@
     --background-color-secondary: #F5F4FA;
     --background-color-footer: #2F303A;
     --accent-color: #2196F3;
+    --button-accent-color: #188CE8;
+    --box-shadow-color: rgba(0, 0, 0, 0.15);
     --color-grey: #ECECEC;
 }
 
 body {
     color: var(--primary-color);
     background-color: var(--tertiary-color);
-    font-family: "Roboto", "Sans serif";
+    font-family: 'Roboto', 'Sans-serif';
     font-size: 14px;
+    letter-spacing: 0.03;
 }
 
 a:hover,
@@ -100,6 +103,7 @@ a:focus {
 .button {
     color: var(--tertiary-color);
     background-color: var(--accent-color);
+    font-family: 'Roboto';
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
@@ -107,7 +111,7 @@ a:focus {
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 4px 4px var(--box-shadow-color);
     border-radius: 4px;
     border: none;
     cursor: pointer;
@@ -115,13 +119,12 @@ a:focus {
 
 .button:hover,
 .button:focus {
-    background-color: #188CE8;
+    background-color: var(--button-accent-color);
 }
 
 .buttons-portfolio {
     background-color: var(--background-color-secondary);
     font-family: "Roboto", "Sans-serif";
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
@@ -129,16 +132,16 @@ a:focus {
     align-items: center;
     text-align: center;
     letter-spacing: 0.03em;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 4px 4px var(--box-shadow-color);
     border-radius: 4px;
     border: none;
+    cursor: pointer;
 }
 
 .buttons-portfolio:hover,
 .buttons-portfolio:focus {
     background-color: var(--accent-color);
     color: var(--tertiary-color);
-    cursor: pointer;
 }
 
 .visually-hidden {
