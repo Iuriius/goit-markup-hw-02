@@ -15,9 +15,9 @@
 body {
     color: var(--primary-color);
     background-color: var(--tertiary-color);
-    font-family: 'Roboto', 'Sans-serif';
+    font-family: Roboto, sans-serif;
     font-size: 14px;
-    letter-spacing: 0.03;
+    letter-spacing: 0.03em;
 }
 
 a:hover,
@@ -26,7 +26,7 @@ a:focus {
 }
 
 .logo {
-    font-family: 'Raleway';
+    font-family: Raleway;
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
@@ -37,12 +37,12 @@ a:focus {
 }
 
 .logopart-black {
-    font-family: 'Raleway';
+    font-family: Raleway;
     color: var(--primary-color);
 }
 
 .logopart-white {
-    font-family: 'Raleway';
+    font-family: Raleway;
     color: var(--tertiary-color);
 }
 
@@ -103,11 +103,10 @@ a:focus {
 .button {
     color: var(--tertiary-color);
     background-color: var(--accent-color);
-    font-family: 'Roboto';
+    font-family: Roboto;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
-    display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
@@ -124,11 +123,10 @@ a:focus {
 
 .buttons-portfolio {
     background-color: var(--background-color-secondary);
-    font-family: "Roboto", "Sans-serif";
+    font-family: Roboto, sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
-    display: inline-flexbox;
     align-items: center;
     text-align: center;
     letter-spacing: 0.03em;
