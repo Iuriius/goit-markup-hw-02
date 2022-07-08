@@ -87,6 +87,7 @@ a:focus {
 
 .hero-background {
     background: var(--background-color-footer);
+    height: 600px;
 }
 
 .hero {
@@ -97,13 +98,18 @@ a:focus {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+    padding-top: 222px;
+}
 
+.hero-container {
+    align-items: center;
+    justify-content: center;
 }
 
 .button {
     color: var(--tertiary-color);
     background-color: var(--accent-color);
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
@@ -114,6 +120,10 @@ a:focus {
     border-radius: 4px;
     border: none;
     cursor: pointer;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 .button:hover,
@@ -130,7 +140,6 @@ a:focus {
     align-items: center;
     text-align: center;
     letter-spacing: 0.03em;
-    box-shadow: 0px 4px 4px var(--box-shadow-color);
     border-radius: 4px;
     border: none;
     cursor: pointer;
@@ -140,6 +149,7 @@ a:focus {
 .buttons-portfolio:focus {
     background-color: var(--accent-color);
     color: var(--tertiary-color);
+    box-shadow: 0px 4px 4px var(--box-shadow-color);
 }
 
 .visually-hidden {
@@ -177,10 +187,13 @@ a:focus {
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
+    padding-top: 94px;
+    padding-bottom: 50px;
 }
 
 .our-team {
     background-color: var(--background-color-secondary);
+    padding-bottom: 50px;
 }
 
 .our-team-card {
@@ -244,4 +257,90 @@ footer {
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
+}
+
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-header {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.container-header-nav {
+    align-items: center;
+    display: flex;
+    padding-left: 150px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    gap: 50px;
+    width: 500px;
+}
+
+.container-header-contacts {
+    display: flex;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    width: 500px;
+    justify-content: flex-end;
+    gap: 50px;
+}
+
+img {
+    display: block;
+}
+
+.container-benefits {
+    display: flex;
+    gap: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    padding-top: 94px;
+}
+
+.container-whatwedo {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.container-our-team {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.footer-logo {
+    padding-top: 60px;
+    padding-bottom: 20px;
+    margin-left: 40px;
+}
+
+.footer-info {
+    padding-bottom: 60px;
+}
+
+.container-buttons {
+    gap: 8px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 56px;
+}
+
+.container-example-cards {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1600px;
+    gap: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-example-card-descr {
+    padding-left: 24px;
 }
